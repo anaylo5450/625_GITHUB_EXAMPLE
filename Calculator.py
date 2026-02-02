@@ -7,6 +7,8 @@ def subtract(num1,num2):
 def multiply(num1,num2):
     return num1 * num2
 
+def divide(num1,num2):
+    return num1 / num2
 
 while True:
     num1 = int(input("Enter first number: "))
@@ -25,3 +27,7 @@ while True:
         case "*":
             product = num1 * num2
             print(f"{num1} * {num2} = {product}")
+
+        case "/":
+            quotient = num1 / num2
+            print(f"{num1} / {num2} = {quotient}")
