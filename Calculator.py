@@ -4,7 +4,8 @@ def add(num1,num2):
 def subtract(num1,num2):
     return num1 - num2
 
-
+def multiply(num1,num2):
+    return num1 * num2
 
 
 while True:
@@ -20,3 +21,7 @@ while True:
         case "-":
             difference = num1 - num2
             print(f"{num1} - {num2} = {difference}")
+        
+        case "*":
+            product = num1 * num2
+            print(f"{num1} * {num2} = {product}")
